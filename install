@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+set -eo pipefail
+
+PLUGIN_DIR="/var/lib/dokku/plugins/available/port-domains"
+mkdir -p "$PLUGIN_DIR/data"
+echo "Port-Domains plugin installed."

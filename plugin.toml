@@ -1,0 +1,5 @@
+[plugin]
+description = "Map ports to domains per app"
+version = "0.1.0"
+[plugin.commands]
+port-domains = "Manage port to domain mappings"
